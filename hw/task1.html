@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 27 - Homework from InnoDOM - Task 1</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./calculator.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Задание 1</h1>
+    <h2>
+        Создание простого калькулятора:
+    </h2>
+
+    <p>
+        Создание простого калькулятора:
+    </p>
+
+    <ul>
+        <li>- создайте <b>HTML</b>-разметку для калькулятора с кнопками и полем отображения результата.</li>
+        <li>- используя <b>JavaScript</b>, добавьте обработчики событий для кнопок, чтобы реализовать функционал калькулятора (сложение, вычитание, умножение, деление). Предусмотрите невозможность деления на 0.</li>
+        <li>- обновляйте поле отображения результата при каждой операции.</li>
+    </ul>
+
+    <div class="calculator">
+        <div class="calculator__header">
+            <div class="calculator__header--title">Результат:</div>
+            <div class="calculator__header--sequince"></div>
+            <div class="calculator__header--result"></div>
+
+        </div>
+
+        <div class="calculator__body">
+            <div class="calculator__numbers">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>0</button>
+                <button id="clear_calculator">C</button>
+            </div>
+            <div class="calculator__controls">
+                <button>/</button>
+                <button>*</button>
+                <button>-</button>
+                <button>+</button>
+            </div>
+        </div>
+        <div class="calculator__footer"></div>
+    </div>
+
+    <script src="./task1.js"></script>
+</body>
+</html>
