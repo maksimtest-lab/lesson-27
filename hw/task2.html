@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 27 - Homework from InnoDOM - Task 2</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./slider.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Задание 2</h1>
+    <h2>
+        Создание слайдера изображений:
+    </h2>
+
+    <ul>
+        <li>создайте <b>HTML</b>-разметку для слайдера изображений, содержащего элементы управления (например, кнопки "<b>Предыдущий</b>" и "<b>Следующий</b>") и область отображения изображения.</li>
+        <li>используя <b>JavaScript</b>, добавьте обработчики событий для кнопок, чтобы реализовать функционал переключения изображений.</li>
+        <li>обновляйте область отображения с текущим изображением при каждом переключении.</li>
+    </ul>
+
+    <div class="slider">
+        <div class="slider__body">
+            <div class="slider__controls">
+                <button id="prev">Предыдущий</button>
+                <button id="next">Следующий</button>
+            </div>
+            <div class="slider__items">
+                <div class="slider__item active">
+                    <img src="./images/1.jpg" alt="1">
+                </div>
+                <div class="slider__item">
+                    <img src="./images/2.jpg" alt="2">
+                </div>
+                <div class="slider__item">
+                    <img src="./images/3.jpg" alt="3">
+                </div>
+                <div class="slider__item">
+                    <img src="./images/4.jpg" alt="4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./task2.js"></script>
+</body>
+</html>
