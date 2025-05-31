@@ -52,3 +52,12 @@
 #clear_calculator {
     background-color: orange;
 }
+
+#calculate_calculator {
+    background-color: green;
+    color: white;
+
+    &:hover {
+        background-color: lightgreen;
+    }
+}
